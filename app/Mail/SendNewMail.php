@@ -29,6 +29,6 @@ class SendNewMail extends Mailable
      */
     public function build()
     {
-        return $this->view('mails.newcontact.name');
+        return $this->view('mails.newcontact');
     }
 }

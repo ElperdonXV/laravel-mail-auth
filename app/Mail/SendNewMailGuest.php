@@ -29,6 +29,6 @@ class SendNewMailGuest extends Mailable
      */
     public function build()
     {
-        return $this->view('mail.guestmail');
+        return $this->view('mails.guestmail');
     }
 }

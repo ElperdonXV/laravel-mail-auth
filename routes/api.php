@@ -20,5 +20,5 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 
 Route::namespace('Api')
     ->group(function(){
-        Route:post('/contacts', 'ContactController@store');
+        Route::post('/contacts', 'ContactController@store');
     });
